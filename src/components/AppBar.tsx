@@ -85,13 +85,13 @@ export const AppBar: FC = (props) => {
         <div id="mySidenav" className="sidenav">
           <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
           <Link href="/">
-            <a className="ml-1">Token Creator</a>
+            <a className="ml-1">创建代币</a>
           </Link>
           <Link href="/update">
-            <a className="ml-1">Update Metadata</a>
+            <a className="ml-1">更新元数据</a>
           </Link>
           <Link href="/uploader">
-            <a className="ml-1">Upload Metadata</a>
+            <a className="ml-1">上传元数据</a>
           </Link>
           <WalletMultiButton className="btn btn-ghost mr-4" />
         </div>
